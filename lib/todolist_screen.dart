@@ -62,7 +62,6 @@ class _TodoScreenState extends State<TodoScreen> {
                             Database().removemethod(documentSnapshot["id"],  personal?"personal":
                             office?"office":"college");
                           });
-
                         });
                       },
                       )
